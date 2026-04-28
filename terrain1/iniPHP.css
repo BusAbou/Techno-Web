@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.blanc {
+    background-color: white;
+}
+
+.noir {
+    background-color: black;
+}
+
+td:not(.blanc):not(.noir) {
+    background-color: gray;
+}
+
+span {
+    display: none;
+}
