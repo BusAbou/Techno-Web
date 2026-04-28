@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+}
+
+/* Conteneur des livres */
+.section-livres {
+    display: flex; /* Utilisation de flexbox */
+    flex-wrap: wrap; /* Permet le retour à la ligne */
+    justify-content: space-between; /* Espace entre les livres */
+}
+
+/* Articles (livres) */
+article {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espace entre les articles */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(30% - 20px); /* Ajustez ici pour trois livres par ligne */
+}
+
+/* Couverture d'image */
+article img {
+    max-width: 100%; /* S'assure que l'image ne dépasse pas la largeur de l'article */
+    height: auto; /* Conserve le ratio d'aspect */
+}
+
+/* Titres des livres */
+h2.titre {
+    color: #35424a;
+}
+
+/* Détails des livres */
+.description {
+    margin-top: 10px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #35424a;
+    color: white;
+}
