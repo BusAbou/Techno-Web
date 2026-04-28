@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Horloge</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="" />
+        <script src="checkbox.js"></script>
+        <style>
+            form input[name='bg']:disabled{
+                color : lightgrey;
+                opacity : 0.2;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formulaire Horloge</h1>
+        </header>
+        
+       <!-- à compléter par un formulaire -->
+        <fieldset>
+            <legend>Horloge</legend>
+            <form action="horloge.php" method="get">
+                <p>
+                    <label for="heure">Heure : </label>
+                    <input type="number" id="heure" name="hours" value="0" min = "0" max="23" step="1" required>
+                </p>
+                <p>
+                    <label for="minute">Minute : </label>
+                    <input type="number" id="minute" name="minutes" value="0" min = "0" max="59" step="1" required>
+                </p>
+                <p>
+                    <label for="seconde">Seconde : </label>
+                    <input type="number" id="seconde" name="seconds" value="0" min = "0" max="59" step="1" required>
+                </p>
+                <p>
+                    <label for="hands">Couleur</label>
+                    <input type="color" id="hands" name="hands" value="#000000">
+                </p>
+                <p>
+                    <label for="markers">Couleur des marqueurs :</label>
+                    <input type="color" name="markers" id="markers" value="#808080">
+                </p>
+                <p>
+                    <label for="bg">Couleur de fond :</label>
+                    <input type="color" name="bg" id="bg" name="bg" value="#ffffff" disabled>
+                    <input type="checkbox" name="bgTransparent" id="bgTransparent" checked>
+                    <label for="bgTransparent">Transparent</label>
+                </p>
+                <p>
+                    <input type="submit" value="Valider">
+                    <input type="reset" value="Réinitialiser">
+                </p>
+               
+            </form>
+        </fieldset>
+     
+    </body>
+    
+</html>
