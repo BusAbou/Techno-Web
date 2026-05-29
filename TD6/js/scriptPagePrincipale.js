@@ -66,7 +66,7 @@ function sendForm(ev) {
     const formData = new FormData(form);
     const territoire = formData.get('territoire');
  
-    fetch(`/~mamadou-baillo.sow.etu/TD6/services/getCommunes.php?territoire=${territoire}`)
+    fetch(`/~aboubacrin.simpara.etu/TD6/services/getCommunes.php?territoire=${territoire}`)
         .then(response => response.json())
         .then(data => makeCommunesItems(data.result))
         .catch(error => console.error('Error:', error));
@@ -100,7 +100,7 @@ function makeCommunesItems(tab) {
         li.addEventListener('mouseover', () => centerMapElt(li));
 
         li.addEventListener('click', function() {
-            fetchFromJson(`https://webtp.fil.univ-lille.fr/~mamadou-baillo.sow.etu/TD6/services/getDetails.php?insee=${this.dataset.insee}`)
+            fetchFromJson(`https://webtp.fil.univ-lille.fr/~aboubacrin.simpara.etu/TD6/services/getDetails.php?insee=${this.dataset.insee}`)
                 .then(data => {
                     if (data && data.status === "ok" && data.result) {
                         displayCommune(data.result);
