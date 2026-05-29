@@ -1,6 +1,6 @@
 # Séance 1 — Introduction à PHP
 
-> Réalisé par **SOW Mamadou Baillo**  
+> Réalisé par **Aboubacrin Simpara**  
 > Cours de Technologies Web — Université de Lille
 
 ## Objectif

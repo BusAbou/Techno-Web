@@ -1,6 +1,6 @@
 # Séance 2 — Manipulation de fichiers et génération HTML dynamique
 
-> Réalisé par **SOW Mamadou Baillo**  
+> Réalisé par **Aboubacrin Simpara**  
 > Cours de Technologies Web — Université de Lille
 
 ## Objectif

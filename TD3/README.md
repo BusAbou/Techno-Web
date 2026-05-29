@@ -1,6 +1,6 @@
 # TD3 — Horloge SVG
 
-> Réalisé par **SOW Mamadou Baillo**  
+> Réalisé par **Aboubacrin Simpara**  
 > Cours de Technologies Web — Université de Lille
 
 ## C'est quoi ce TD ?

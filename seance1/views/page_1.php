@@ -8,7 +8,7 @@
     <body>
         <header>
             <h1>Premier exercice PHP</h1>
-            <h2>Réalisé par <span class="nom">SOW Mamadou Baillo</span></h2>
+            <h2>Réalisé par <span class="nom">Aboubacrin Simpara</span></h2>
         </header>
         <!-- section résultat. Créer une section pour chaque question -->
         <section>
